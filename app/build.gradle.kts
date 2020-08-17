@@ -19,8 +19,26 @@ android {
 
     buildTypes {
         getByName("release") {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
+            isShrinkResources = true
+            isUseProguard = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+        }
+        getByName("debug") {
+            applicationIdSuffix = ".debug"
+            isDebuggable = true
+        }
+    }
+
+    flavorDimensions("version")
+    productFlavors {
+        create("free") {
+            setDimension("version")
+            applicationId = "com.example.playground.free"
+        }
+        create("subscription") {
+            setDimension("version")
+            applicationId = "com.example.playground.premium"
         }
     }
 
