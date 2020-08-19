@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "502069914619",
+    "firebase_url": "https://playground-premium.firebaseio.com",
+    "project_id": "playground-premium",
+    "storage_bucket": "playground-premium.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502069914619:android:3416fce556f8580426f95e",
+        "android_client_info": {
+          "package_name": "com.desmond.playground.premium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502069914619-vpim5p0n49efgfhs4t9m2fakenq9dhgi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.desmond.playground.premium",
+            "certificate_hash": "64fe208ddb64adc363ce3f2aacedc4bf9d8e577b"
+          }
+        },
+        {
+          "client_id": "502069914619-dj408cgcav34skrjdhjivpf6frd2f9a4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUhQvHXyHv2OzvZx-h31dkIYnHOGCfvCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502069914619-dj408cgcav34skrjdhjivpf6frd2f9a4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502069914619:android:15926227d4ddae0226f95e",
+        "android_client_info": {
+          "package_name": "com.desmond.playground.premium.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502069914619-56og37npubcs38a8sfupp7l3rg90dpqf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.desmond.playground.premium.debug",
+            "certificate_hash": "64fe208ddb64adc363ce3f2aacedc4bf9d8e577b"
+          }
+        },
+        {
+          "client_id": "502069914619-dj408cgcav34skrjdhjivpf6frd2f9a4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUhQvHXyHv2OzvZx-h31dkIYnHOGCfvCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502069914619-dj408cgcav34skrjdhjivpf6frd2f9a4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

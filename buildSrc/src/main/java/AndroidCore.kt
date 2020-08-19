@@ -1,5 +1,5 @@
 object AndroidCore {
-    const val APPLICATION_ID = "com.example.modularisationdemo"
+    const val APPLICATION_ID = "com.desmond.playground"
     const val ANDROID_COMPILE_SDK_VERSION = 28
     const val ANDROID_TARGET_SDK = 28
     const val ANDROID_MIN_SDK = 21
@@ -9,6 +9,7 @@ object AndroidCore {
 }
 
 object Plugins {
+    const val GOOGLE_SERVICES = "com.google.gms.google-services"
     const val APPLICATION = "com.android.application"
     const val KOTLIN_ANDROID = "kotlin-android"
     const val ANDROID_LIBRARY = "com.android.library"

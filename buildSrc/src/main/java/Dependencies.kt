@@ -54,6 +54,7 @@ object Dependencies {
     const val transition = "androidx.transition:transition:${Versions.androidSupportVersion}"
     const val androidKtx = "androidx.core:core-ktx:${Versions.coreKtxVersion}"
     const val constraintLayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintLayoutVersion}"
+    const val google_services = "com.google.firebase:firebase-analytics:17.5.0"
 
     //Jetpack
     const val lifecycle = "androidx.lifecycle:lifecycle-extensions:${Versions.lifecycleVersion}"

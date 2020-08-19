@@ -2,6 +2,7 @@ plugins {
     id(Plugins.APPLICATION)
     id(Plugins.KOTLIN_ANDROID)
     id(Plugins.KOTLIN__KAPT)
+    id(Plugins.GOOGLE_SERVICES)
 }
 
 android {
@@ -34,11 +35,11 @@ android {
     productFlavors {
         create("free") {
             setDimension("version")
-            applicationId = "com.example.playground.free"
+            applicationId = "com.desmond.playground.free"
         }
         create("subscription") {
             setDimension("version")
-            applicationId = "com.example.playground.premium"
+            applicationId = "com.desmond.playground.premium"
         }
     }
 
@@ -74,6 +75,7 @@ dependencies {
     implementation(Dependencies.androidKtx)
     implementation(Dependencies.constraintLayout)
     implementation(Dependencies.androidSupport)
+    implementation(Dependencies.google_services)
 
     // JetPack
     implementation(Dependencies.lifecycle)
